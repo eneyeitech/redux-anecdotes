@@ -7,7 +7,7 @@ const App = () => {
 
   const vote = (id) => {
     console.log('vote', id)
-     dispatch(voteAnecdote(id))
+    dispatch(voteAnecdote(id))
   }
 
   return (
